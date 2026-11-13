@@ -37,3 +37,16 @@ html {
 .hero-text {
   visibility: hidden;
 }
+
+/* Hide Netlify Drawer & badges */
+iframe[src*="netlify"],
+[data-netlify-drawer],
+#netlify-drawer,
+.netlify-drawer,
+div[class*="netlify-feedback"],
+div[id*="netlify-feedback"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
