@@ -362,7 +362,7 @@ const Hero = () => {
           <img
             ref={heroBgImgRef}
             src="/Frames/frame_0001.jpeg"
-            alt="Creative Developer — Surya Sekhar Sharma"
+            alt="Creative Developer — Rayapati Ravi Theja"
             fetchpriority="high"
           />
         </div>

@@ -4,28 +4,52 @@ import { RiExternalLinkLine, RiGithubFill } from "@remixicon/react";
 
 const PROJECTS = [
   {
+    id: "ai-code-review-bot",
+    title: "AI Code Review Bot",
+    tag: "AI · Microservices · LLMs",
+    description:
+      "Automated code review bot that ingests GitHub pull request diffs via webhooks to evaluate code quality, style, and security vulnerabilities. Features asynchronous backend microservices with context-aware prompting for instant static analysis and inline remediation.",
+    image: "/Framework.jpg",
+    alt: "AI Code Review Bot — Automated PR Reviewer",
+    deployUrl: null,
+    githubUrl: "https://github.com/rayapatiravitheja/ai-code-review-bot",
+    techIcons: "python,github,fastapi,docker,git",
+  },
+  {
     id: "inventorypro",
     title: "InventoryPro",
     tag: "Full-Stack · MERN",
     description:
-      "JWT-secured REST API with full CRUD operations across categories, products, suppliers, customers, purchases, and orders. Features dashboard metrics, stock alerts, and top-product rankings. Built with the MERN stack and deployed on Vercel.",
+      "Architected a centralized multi-warehouse inventory system utilizing MongoDB, Express.js, React.js, and Node.js for real-time stock lifecycle management. Features Role-Based Access Control (RBAC), inter-warehouse allocations, and automated reconciliation.",
     image: "/InventoryPro.png",
-    alt: "InventoryPro — Inventory Management System",
-    deployUrl: "https://inventorypro-ims.vercel.app/",
-    githubUrl: "https://github.com/SuryaX2/IMS",
-    techIcons: "mongodb,express,react,nodejs,tailwind,postman,vercel",
+    alt: "InventoryPro — Inventory & Warehouse Management System",
+    deployUrl: "https://inventory-pro-azure-two.vercel.app/",
+    githubUrl: "https://github.com/rayapatiravitheja/Inventory-pro",
+    techIcons: "mongodb,express,react,nodejs,tailwind,postman",
   },
   {
-    id: "lms",
-    title: "Library Management System",
-    tag: "Full-Stack · MERN",
+    id: "linkedai",
+    title: "LinkedAI",
+    tag: "AI · Web Automation",
     description:
-      "A full-stack MERN application with secure authentication and separate admin/user dashboards. Admins can add, edit, and delete books and manage user borrow/return requests. Deployed on Vercel with Cloudinary for book image storage.",
+      "Intelligent automation platform streamlining job matching, applicant tracking, and recruiter interaction. Integrated Playwright for headless browser automation coupled with Groq API (LLaMA 3.3) for high-throughput communication generation and Express/Firebase backend.",
     image: "/LMS.png",
-    alt: "LMS — Library Management System",
-    deployUrl: "https://lms-7phy.vercel.app/",
-    githubUrl: "https://github.com/SuryaX2/LMS",
-    techIcons: "mongodb,express,react,nodejs,tailwind,vercel",
+    alt: "LinkedAI — LinkedIn Automation Platform",
+    deployUrl: null,
+    githubUrl: "https://github.com/rayapatiravitheja",
+    techIcons: "nodejs,express,react,firebase,python,postman",
+  },
+  {
+    id: "ai-exam",
+    title: "AI-EXAM Proctoring",
+    tag: "Computer Vision · Deep Learning",
+    description:
+      "Intelligent online proctoring system using computer vision and deep learning to monitor examinee behavior in real-time, detecting multi-face presence, gaze diversion, and suspicious activity during remote examination sessions.",
+    image: "/WebDev.jpg",
+    alt: "AI-EXAM — Intelligent Online Proctoring Platform",
+    deployUrl: null,
+    githubUrl: "https://github.com/rayapatiravitheja/AI-Powered-Online-Examination-Intelligent-Proctoring-System",
+    techIcons: "python,tensorflow,opencv,react,fastapi",
   },
 ];
 

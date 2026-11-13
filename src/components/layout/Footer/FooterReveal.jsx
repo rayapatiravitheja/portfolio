@@ -21,21 +21,21 @@ const NAV_LINKS = [
   { label: "Skills", href: "#skills" },
   { label: "Education", href: "#education" },
   { label: "Projects", href: "#projects" },
-  { label: "Experience", href: "#experience" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const SOCIAL_LINKS = [
   {
     icon: RiLinkedinBoxFill,
-    href: "https://www.linkedin.com/in/suryax2",
+    href: "https://www.linkedin.com/in/rayapati-ravi-theja",
     label: "LinkedIn",
-    handle: "suryax2",
+    handle: "rayapati-ravi-theja",
   },
   {
     icon: RiGithubFill,
-    href: "https://github.com/suryax2",
+    href: "https://github.com/rayapatiravitheja",
     label: "GitHub",
-    handle: "SuryaX2",
+    handle: "rayapatiravitheja",
   },
 ];
 
@@ -218,16 +218,16 @@ const FooterReveal = () => {
 
           <div className="fr-hero-right">
             <p className="fr-hero-sub">
-              Based in Kolkata, India — available for freelance, full-time &amp;
-              collaborative work.
+              Based in Anantapur, Andhra Pradesh, India — available for software engineering, full-time &amp;
+              collaborative roles.
             </p>
             <a
-              href="mailto:sekharsurya111@gmail.com"
+              href="mailto:rayapatiravitheja@gmail.com"
               className="fr-email-btn"
-              aria-label="Email Surya at sekharsurya111@gmail.com"
+              aria-label="Email Ravi Theja at rayapatiravitheja@gmail.com"
               itemProp="email"
             >
-              <span>sekharsurya111@gmail.com</span>
+              <span>rayapatiravitheja@gmail.com</span>
               <RiArrowRightUpLine
                 className="fr-email-icon"
                 aria-hidden="true"
@@ -284,7 +284,7 @@ const FooterReveal = () => {
               );
             })}
             <a
-              href="/Resume/Surya_CV.pdf"
+              href="/Resume/Ravi_Theja_CV.pdf"
               download
               aria-label="Download Resume"
               className="fr-social-row"
@@ -304,19 +304,19 @@ const FooterReveal = () => {
           <div className="fr-col fr-col--about">
             <p className="fr-col-label">About</p>
             <p className="fr-about-line fr-about-name" itemProp="name">
-              Surya Sekhar Sharma
+              Rayapati Ravi Theja
             </p>
             <p className="fr-about-line fr-about-role">
-              Creative Developer &amp; Engineer
+              AI &amp; Full Stack Developer
             </p>
             <p className="fr-about-line fr-about-institute">
-              Narula Institute of Technology
+              Kalasalingam Academy of Research and Education
             </p>
             <p className="fr-about-line fr-about-degree">
-              B.Tech — Information Technology
+              B.Tech — CSE (AIML)
             </p>
             <div className="fr-about-line fr-about-stack">
-              {["MERN", "GSAP", "Java", "SQL", "REST API"].map((t) => (
+              {["Python", "Machine Learning", "LLMs", "React", "Node.js", "MongoDB"].map((t) => (
                 <span key={t} className="fr-tag">
                   {t}
                 </span>
@@ -324,7 +324,7 @@ const FooterReveal = () => {
             </div>
             <div className="fr-about-line fr-contact-details">
               <a
-                href="https://www.linkedin.com/in/suryax2"
+                href="https://www.linkedin.com/in/rayapati-ravi-theja"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="fr-contact-link"
@@ -338,7 +338,7 @@ const FooterReveal = () => {
                 itemType="https://schema.org/PostalAddress"
                 style={{ fontStyle: "normal" }}
               >
-                <span itemProp="addressLocality">Kolkata</span>,{" "}
+                <span itemProp="addressLocality">Anantapur, Andhra Pradesh</span>,{" "}
                 <span itemProp="addressCountry">India</span>
               </address>
             </div>
@@ -346,14 +346,14 @@ const FooterReveal = () => {
         </div>
 
         <div className="fr-name-wrap" aria-hidden="true">
-          <span className="fr-name">SURYA</span>
+          <span className="fr-name">RAVI THEJA</span>
         </div>
 
         <div className="fr-bottom-line" aria-hidden="true" />
 
         <div className="fr-meta-bar">
           <span className="fr-copy">
-            &copy; {year} Surya Sekhar Sharma. All rights reserved.
+            &copy; {year} Rayapati Ravi Theja. All rights reserved.
           </span>
           <span className="fr-craft">Crafted with GSAP &amp; React</span>
           <button

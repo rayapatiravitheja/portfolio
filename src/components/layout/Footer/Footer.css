@@ -354,12 +354,13 @@ a.fr-contact-link:hover {
 .fr-name {
   display: block;
   font-family: 'Bebas Neue', sans-serif;
-  font-size: calc(clamp(1rem, 20vw, 999rem) * 2);
-  letter-spacing: 2.65rem;
+  font-size: clamp(2rem, 13vw, 16rem);
+  letter-spacing: clamp(0.2rem, 1.2vw, 1.5rem);
   color: #0a0a0a;
   line-height: 0.82;
   overflow: hidden;
   text-align: center;
+  white-space: nowrap;
 }
 
 .fr-meta-bar {

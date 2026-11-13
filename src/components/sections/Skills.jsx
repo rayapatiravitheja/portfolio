@@ -7,22 +7,22 @@ import StickyCards from "./StickyCards/StickyCards";
 gsap.registerPlugin(ScrollTrigger);
 
 const skillKeywords = [
+  "Python",
+  "Machine Learning",
+  "LLMs",
   "React",
   "Node.js",
   "MongoDB",
   "Express",
-  "JavaScript",
-  "Tailwind",
   "Java",
   "SQL",
+  "FastAPI",
+  "Tailwind",
+  "Docker",
   "Git",
   "REST API",
-  "MERN",
-  "JWT",
-  "HTML5",
-  "CSS3",
-  "MySQL",
-  "Vercel",
+  "Pandas",
+  "TensorFlow",
 ];
 
 const Skills = () => {

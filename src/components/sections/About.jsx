@@ -7,7 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const BIO_TEXT =
-  "Surya Sekhar Sharma, a B.Tech candidate in Information Technology from Narula Institute of Technology, skilled in Java, SQL, and Web Development through hands-on projects. Seeking opportunities to apply my technical foundation, learn quickly on the job, and contribute to impactful software solutions as part of a team.";
+  "Rayapati Ravi Theja, a Computer Science and Engineering undergraduate specializing in Artificial Intelligence and Machine Learning from Kalasalingam Academy of Research and Education. Skilled in Python, Java, JavaScript, React.js, Node.js, and MongoDB, with hands-on experience developing full-stack applications, AI-powered code analysis tools, and browser-based automation platforms.";
 
 const About = () => {
   const sectionRef = useRef(null);
@@ -157,7 +157,7 @@ const About = () => {
       id="about"
       ref={sectionRef}
       className="lg:min-h-screen bg-black flex flex-col items-start justify-start py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 overflow-x-hidden"
-      aria-label="About Surya Sekhar Sharma"
+      aria-label="About Rayapati Ravi Theja"
     >
       <div className="flex items-center justify-center mb-0 w-full h-full">
         <svg

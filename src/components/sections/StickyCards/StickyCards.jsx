@@ -13,36 +13,36 @@ const StickyCards = () => {
       title: "Languages & Core",
       image: "Language_Core.jpg",
       techLabel: "Core Stack",
-      icons: ["c", "java", "mysql"],
+      icons: ["python", "java", "mysql"],
       description:
-        "Proficient in C, Java, and SQL with a strong grasp of object-oriented programming and algorithmic thinking. Java is my primary language for building structured backend logic, while SQL drives my approach to relational data modeling and query optimization across MySQL-based systems.",
+        "Proficient in Python and Java with a deep foundation in Data Structures, Algorithms, and Object-Oriented Programming. Experienced in writing clean, scalable backend logic and utilizing MySQL for relational schema design and query optimization.",
     },
     {
       index: "02",
-      title: "Web Development",
+      title: "AI & Machine Learning",
       image: "WebDev.jpg",
-      techLabel: "Tech Stack",
-      icons: ["html", "css", "js", "express"],
+      techLabel: "AI/ML Stack",
+      icons: ["python", "tensorflow", "fastapi"],
       description:
-        "Skilled in crafting semantic, responsive interfaces using HTML5, CSS3, and JavaScript. I leverage Express.js to design lightweight server-side architectures — handling routing, middleware, and RESTful endpoint design with clarity and consistency.",
+        "Specialized in Machine Learning, Large Language Models (LLMs), RAG architectures, and predictive modeling. Experienced with Pandas, NumPy, Scikit-learn, and TensorFlow for end-to-end data analysis, model training, and AI pipeline orchestration.",
     },
     {
       index: "03",
-      title: "Frameworks & Stack",
+      title: "Full Stack & MERN",
       image: "/Framework.jpg",
-      techLabel: "Tech Stack",
-      icons: ["mongo", "express", "react", "nodejs", "tailwind", "jwt"],
+      techLabel: "Web Stack",
+      icons: ["mongodb", "express", "react", "nodejs", "tailwind", "js"],
       description:
-        "Experienced in end-to-end product development using the MERN stack. Shipped production-grade apps featuring JWT authentication, role-based dashboards, full CRUD operations, and cloud deployments on Vercel with Cloudinary for media management.",
+        "Experienced in building full-stack responsive web applications using React.js, Node.js, Express.js, and MongoDB. Skilled in architecting RESTful APIs, role-based access control (RBAC), transactional workflows, and modern Tailwind CSS styling.",
     },
     {
       index: "04",
-      title: "Tools & Workflow",
+      title: "Tools & Automation",
       image: "/Tools.jpg",
-      techLabel: "Tech Stack",
-      icons: ["git", "github", "vscode", "postman", "figma"],
+      techLabel: "Workflow",
+      icons: ["git", "github", "vscode", "postman"],
       description:
-        "Versed in a professional workflow using Git, GitHub, VS Code, Tailwind CSS, and Ant Design. Also experienced with ServiceNow — building Service Catalog items and automating approval workflows via Flow Designer during my internship at Accenture.",
+        "Versed in modern developer workflows utilizing Git, GitHub, VS Code, and Postman. Hands-on experience developing browser automation with Playwright and LLM-driven pipelines using Groq and modern AI APIs.",
     },
   ];
 

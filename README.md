@@ -1,169 +1,166 @@
 <div align="center">
 
-# ✦ Surya Sekhar Sharma — Portfolio
+# ✦ Rayapati Ravi Theja — Portfolio
 
-**A cinematic, scroll-driven developer portfolio built with React + GSAP**
+**A cinematic, scroll-driven developer portfolio built with React 19 + Vite + GSAP + Lenis**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-black?style=for-the-badge&logo=vercel)](https://surya-sekhar-sharma.netlify.app/)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
-[![GSAP](https://img.shields.io/badge/GSAP-3-88CE02?style=for-the-badge&logo=greensock&logoColor=black)](https://gsap.com)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=black)](https://tailwindcss.com)
-
-![Portfolio Preview](https://github.com/user-attachments/assets/656e1225-7310-49c9-b124-aa6bd9e3c27d)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rayapati-ravi-theja)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rayapatiravitheja)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![GSAP](https://img.shields.io/badge/GSAP-3.14-88CE02?style=for-the-badge&logo=greensock&logoColor=black)](https://gsap.com)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS%20v4-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=black)](https://tailwindcss.com)
 
 </div>
 
 ---
 
-## What's Inside
+## ⚡ Overview
 
-Not your average portfolio. This is a **frame-by-frame canvas animation engine** wrapped around a full developer showcase — every scroll, reveal, and transition is intentional.
+A performance-first developer showcase driven by a **frame-by-frame canvas scrubbing engine** and orchestrated with **GSAP & Lenis**. Every scroll, reveal, polygon clip-path, and typographic stagger is synchronized with the browser's refresh rate.
 
 ```
-300 canvas frames  ·  clip-path reveals  ·  3D flip cards
-scroll-triggered text  ·  elastic SVG line  ·  custom cursor
-sticky parallax cards  ·  cinematic preloader  ·  footer reveal
+300 Canvas Frames  ·  Polygon Clip-Path Reveals  ·  3D Flip Cards
+Scroll-Driven Gradient Text  ·  Elastic Interactive SVG Line  ·  Custom Cursor
+Stacked Sticky Parallax Cards  ·  Cinematic Preloader  ·  Full-Screen Footer Reveal
 ```
 
 ---
 
-## Sections
+## 🏛️ Sections & Features
 
-| Section | Highlight |
-|---|---|
-| **Hero** | 300-frame canvas scroll animation + clip-path reveal |
-| **About** | SVG stroke-to-fill text + scroll-driven gradient fill |
-| **What I Do** | Three-panel slide-in with scale collapse |
-| **Skills** | Horizontal scroll marquee + stacked sticky cards |
-| **Approach** | 3D flip cards with scroll-based gap & rotation |
-| **Education** | Clip-path image reveals with per-char stagger |
-| **Projects** | Pinned scroll with image wipe transitions |
-| **Experience** | Horizontal parallax carousel |
-| **Contact/Footer** | Full-section animated reveal with split text |
-
----
-
-## Tech Stack
-
-**Core**
-- [React 18](https://react.dev) + [Vite](https://vitejs.dev)
-- [GSAP](https://gsap.com) — SplitText · ScrollTrigger · CustomEase
-- [Lenis](https://lenis.darkroom.engineering) — smooth scroll synced with GSAP ticker
-- [Tailwind CSS v4](https://tailwindcss.com)
-- [Remixicon](https://remixicon.com)
-
-**Animation Techniques**
-- `clip-path` polygon transitions for image reveals
-- Canvas `drawImage` for frame-by-frame scrubbing
-- `SplitText` with mask for char/word stagger
-- `ScrollTrigger` pinning with `scrub` for parallax
-- `IntersectionObserver` for carousel title transitions
-- CSS custom properties driven by GSAP for overlay effects
+| Section              | Description                                                                       |
+| -------------------- | --------------------------------------------------------------------------------- |
+| **Hero**             | 300-frame canvas video scrubbing animation + counter preloader + clip-path reveal |
+| **About Me**         | SVG stroke-to-fill lettering + scroll-scrubbed gradient text mask                 |
+| **Interactive Line** | Elastic physics-based SVG string responding to mouse/touch hover                  |
+| **What I Do**        | Triple-panel horizontal slide-in with dynamic scale collapse                      |
+| **Skills**           | Floating keyword marquee + 4 stacked 3D sticky cards with live skill icons        |
+| **Approach**         | 3D flip card showcase (_Develop · Design · Deploy_) with scroll-driven gaps       |
+| **Education**        | Clip-path polygon image reveals with per-character typography stagger             |
+| **Projects**         | Sticky pinned project showcase with real-time diff preview wiping & tech tags     |
+| **Contact / Footer** | Staggered char-split typography reveal, direct mailer, and resume download        |
 
 ---
 
-## Getting Started
+## 🛠️ Tech Stack
+
+### Frontend & Core
+
+- **[React 19](https://react.dev)** — Component architecture
+- **[Vite 7](https://vitejs.dev)** — Ultra-fast HMR and bundle optimization
+- **[Tailwind CSS v4](https://tailwindcss.com)** — Modern utility-first styling with `@tailwindcss/vite`
+- **[Remixicon](https://remixicon.com)** — High-precision iconography
+
+### Animation & Smooth Scroll
+
+- **[GSAP](https://gsap.com)** (`gsap`, `@gsap/react`):
+  - **ScrollTrigger** — Coordinate pinning, scrubbing, and timeline synchronization
+  - **SplitText** — Character and word masking for typographic entrance effects
+  - **CustomEase** — Physics-modeled easing curves for organic micro-interactions
+- **[Lenis](https://lenis.darkroom.engineering)** — Virtual smooth scrolling synced directly to the GSAP global ticker
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** (v18 or higher recommended)
+- **npm** or **pnpm**
+
+### Installation
 
 ```bash
-# Clone the repo
-git clone https://github.com/SuryaX2/portfolio.git
+# 1. Clone the repository
+git clone https://github.com/rayapatiravitheja/portfolio.git
 cd portfolio
 
-# Install dependencies
+# 2. Install dependencies
 npm install
 
-# Start dev server
+# 3. Start local development server
 npm run dev
 ```
 
-> **Note:** The canvas animation requires 300 JPEG frames in `/public/Frames/` named `frame_0001.jpeg` → `frame_0300.jpeg`. These are not included in the repo due to file size.
+Visit `http://localhost:3000` (or `http://localhost:5173`) in your browser.
 
----
+### Production Build
 
-## Project Structure
+```bash
+# Build optimized static production bundle
+npm run build
 
-```
-src/
-├── components/
-│   ├── layout/
-│   │   ├── Navbar.jsx          # Full-screen animated menu
-│   │   ├── HeroFooter.jsx      # Animated hero bottom bar
-│   │   ├── CustomCursor.jsx    # GSAP-driven custom cursor
-│   │   ├── SvgLine.jsx         # Elastic mouse-follow SVG
-│   │   └── Footer/
-│   │       └── FooterReveal.jsx # Scroll-triggered footer
-│   └── sections/
-│       ├── Hero.jsx            # Canvas frame player + preloader
-│       ├── About.jsx           # SVG text + gradient fill
-│       ├── Skills.jsx          # Marquee + sticky cards
-│       ├── FlipCards/          # 3D scroll-driven flip cards
-│       ├── Educational-Section/ # Clip-path image scroll
-│       ├── ProjectSection/     # Pinned project scroll
-│       └── ExpCarousel/        # Horizontal parallax carousel
-├── hooks/
-│   └── useLenis.js             # Lenis + GSAP ticker setup
-├── context/
-│   └── LenisContext.js         # Shared scroll instance
-└── pages/
-    └── Home.jsx
+# Preview production build locally
+npm run preview
 ```
 
 ---
 
-## Key Animation Patterns
+## 📁 Directory Structure
 
-**Frame scrubbing on canvas**
-```js
-ScrollTrigger.create({
-  trigger: heroRef.current,
-  start: "top top",
-  end: "+=300%",
-  scrub: 2,
-  onUpdate: (self) => {
-    const target = Math.round(self.progress * (FRAME_COUNT - 1));
-    drawFrame(target);
-  },
-});
 ```
-
-**Clip-path reveal**
-```js
-tl.to(heroBgRef.current, {
-  clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-  duration: 2,
-  ease: "hop",
-});
-```
-
-**SplitText with mask**
-```js
-const split = SplitText.create(el, { type: "chars", mask: "chars" });
-gsap.from(split.chars, { y: "100%", stagger: 0.05, ease: "power4.out" });
+├── public/
+│   ├── Frames/                 # 300 sequential canvas scrub frames
+│   ├── Resume/                 # Ravi_Theja_CV.pdf
+│   ├── avatar.svg              # Custom monogram brand avatar
+│   ├── mark-white.png          # Crowned 'R' brand mark
+│   ├── logo-white.png          # Full brand logo
+│   └── favicon.ico / .png      # App tab icons
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Navbar.jsx      # Full-screen animated drawer navigation
+│   │   │   ├── HeroFooter.jsx  # Hero bottom bar with date & social links
+│   │   │   ├── CustomCursor.jsx# GSAP interactive follower cursor
+│   │   │   ├── SvgLine.jsx     # Elastic interactive wobble string
+│   │   │   └── Footer/         # Full-screen animated footer reveal
+│   │   └── sections/
+│   │       ├── Hero.jsx        # 300-frame canvas engine + preloader
+│   │       ├── About.jsx       # SVG stroke-to-fill text animation
+│   │       ├── WhatIDo/        # 3-panel horizontal slide-in
+│   │       ├── Skills.jsx      # Keyword marquee + stacked cards
+│   │       ├── StickyCards/    # 4 sticky parallax skill categories
+│   │       ├── FlipCards/      # 3D interactive flip cards
+│   │       ├── Educational-Section/ # Clip-path image reveals
+│   │       └── ProjectSection/ # Pinned project slider
+│   ├── context/
+│   │   └── LenisContext.js     # Global smooth scroll context
+│   ├── hooks/
+│   │   └── useLenis.js         # GSAP ticker integration
+│   ├── pages/
+│   │   └── Home.jsx            # Main orchestrated page view
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
 ```
 
 ---
 
-## Performance Notes
+## ⚡ Performance Optimizations
 
-- All frames are preloaded before scroll is unlocked
-- `ResizeObserver` keeps canvas dimensions in sync
-- `willChange: transform` applied to animated elements
-- Lenis scroll is paused during preloader, menu open states
-- `ScrollTrigger.refresh()` called after pinned sections are ready
+- **Canvas Frame Scrubbing**: Uses zero-memory canvas redrawing with preloaded image arrays rather than decoding videos on the main thread.
+- **Scroll Restoration**: Set to `manual` on initial mount to guarantee accurate frame synchronization from coordinate `(0, 0)`.
+- **GSAP Ticker Coupling**: Lenis scroll loop directly tied into `gsap.ticker` to eliminate frame judder and scroll tearing.
+- **Hardware Acceleration**: Critical animated targets use `will-change: transform` and CSS 3D transforms (`translate3d`) for GPU composition.
+- **Asset Tree Hygiene**: Zero unreferenced assets in `public/`, resulting in lightning-fast sub-4-second production builds.
 
 ---
 
-## License
+## 📬 Contact & Connect
 
-MIT — feel free to use this as reference or inspiration. A star ⭐ is appreciated if it helped you!
+- **Name:** Rayapati Ravi Theja
+- **Location:** Anantapur, Andhra Pradesh, India
+- **Email:** [rayapatiravitheja@gmail.com](mailto:rayapatiravitheja@gmail.com)
+- **LinkedIn:** [linkedin.com/in/rayapati-ravi-theja](https://www.linkedin.com/in/rayapati-ravi-theja)
+- **GitHub:** [github.com/rayapatiravitheja](https://github.com/rayapatiravitheja)
 
 ---
 
 <div align="center">
 
-**Designed & Built by [Surya Sekhar Sharma](https://www.linkedin.com/in/suryax2)**
+**&copy; Rayapati Ravi Theja. All rights reserved.**
 
-`React` · `GSAP` · `Lenis` · `Tailwind` · `Vite`
+`React 19` · `Vite` · `GSAP` · `Tailwind CSS` · `Lenis`
 
 </div>

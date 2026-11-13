@@ -14,12 +14,12 @@ gsap.registerPlugin(SplitText);
 const SOCIAL_LINKS = [
   {
     icon: RiLinkedinBoxFill,
-    href: "https://www.linkedin.com/in/suryax2",
+    href: "https://www.linkedin.com/in/rayapati-ravi-theja",
     label: "LinkedIn",
   },
   {
     icon: RiGithubFill,
-    href: "https://github.com/suryax2",
+    href: "https://github.com/rayapatiravitheja",
     label: "GitHub",
   },
 ];
@@ -212,7 +212,7 @@ const HeroFooter = forwardRef(function HeroFooter(_, ref) {
             })}
             <a
               ref={(el) => (socialRefs.current[SOCIAL_LINKS.length] = el)}
-              href="/Resume/Surya_CV.pdf"
+              href="/Resume/Ravi_Theja_CV.pdf"
               download
               aria-label="Download resume"
               className="group flex items-center gap-2 text-white transition-colors duration-300"

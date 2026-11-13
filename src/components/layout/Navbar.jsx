@@ -1,6 +1,5 @@
 import { useGSAP } from "@gsap/react";
 import {
-  RiBnbLine,
   RiCloseLargeLine,
   RiGithubFill,
   RiLinkedinBoxFill,
@@ -23,31 +22,31 @@ const NAVIGATION_ITEMS = [
 ];
 
 const TAGS = [
-  "Web Animation",
-  "Web Developer",
-  "Tech Enthusiast",
-  "Software Developer",
+  "AI & Machine Learning",
+  "Python & LLMs",
   "Full Stack Developer",
+  "MERN Stack",
+  "Intelligent Systems",
 ];
 
 const SOCIAL_LINKS = [
   {
     icon: RiLinkedinBoxFill,
-    href: "https://www.linkedin.com/in/suryax2",
+    href: "https://www.linkedin.com/in/rayapati-ravi-theja",
     label: "LinkedIn",
     hoverColor: "hover:text-blue-400",
   },
   {
     icon: RiGithubFill,
-    href: "https://github.com/suryax2",
+    href: "https://github.com/rayapatiravitheja",
     label: "GitHub",
     hoverColor: "hover:text-white",
   },
 ];
 
 const CONTACT_INFO = {
-  location: "Kolkata, India",
-  email: "sekharsurya111@gmail.com",
+  location: "Anantapur, Andhra Pradesh, India",
+  email: "rayapatiravitheja@gmail.com",
 };
 
 const ANIMATION_CONFIG = {
@@ -227,17 +226,21 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full px-8 py-1 flex items-center justify-between pointer-events-auto text-white z-100 mix-blend-difference">
+      <nav className="fixed top-0 left-0 w-full px-8 py-2 flex items-center justify-between pointer-events-auto text-white z-100 mix-blend-difference">
         <a
           href="#hero"
-          className="w-8 h-8 transition-transform duration-300 hover:scale-110"
+          className="w-9 h-9 flex items-center justify-center transition-transform duration-300 hover:scale-110"
           aria-label="Home"
           onClick={(e) => {
             e.preventDefault();
             lenisRef?.current?.scrollTo("#hero", { duration: 1.4 });
           }}
         >
-          <RiBnbLine className="w-full h-full" />
+          <img
+            src="/mark-white.png"
+            alt="Rayapati Ravi Theja"
+            className="w-full h-full object-contain filter drop-shadow"
+          />
         </a>
 
         <button
@@ -271,16 +274,16 @@ const Navbar = () => {
         aria-hidden={!isMenuOpen}
       >
         <div ref={menuContentRef} className="relative w-full h-full flex">
-          <div className="hidden md:block md:w-2/5 h-full relative overflow-hidden bg-neutral-900 shrink-0">
+          <div className="hidden md:flex md:w-2/5 h-full relative overflow-hidden bg-neutral-900 shrink-0 items-center justify-center p-12">
             <div
               ref={menuImageRef}
-              className="w-full h-full"
+              className="w-full h-full flex flex-col items-center justify-center"
               style={{ willChange: "transform, opacity" }}
             >
               <img
-                src="/me.jpg"
-                alt="Portfolio preview"
-                className="w-full h-full object-cover object-right"
+                src="/logo-white.png"
+                alt="Rayapati Ravi Theja"
+                className="max-w-[75%] max-h-[60%] object-contain filter drop-shadow-2xl"
                 loading="lazy"
               />
             </div>
@@ -288,19 +291,19 @@ const Navbar = () => {
 
           <div className="flex-1 relative flex flex-col h-full overflow-y-auto p-6 sm:p-8 md:p-10">
             <div className="md:hidden flex items-center gap-3 pt-16 pb-4 mb-2">
-              <div className="w-11 h-11 rounded-full overflow-hidden border border-neutral-700 shrink-0">
+              <div className="w-11 h-11 rounded-full overflow-hidden border border-neutral-700 bg-neutral-900 shrink-0 flex items-center justify-center p-1.5">
                 <img
-                  src="/me.jpg"
-                  alt="Surya Sekhar Sharma"
-                  className="w-full h-full object-cover object-right"
+                  src="/mark-white.png"
+                  alt="Rayapati Ravi Theja"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div className="flex flex-col">
                 <p className="text-white text-sm font-semibold tracking-wide leading-tight">
-                  Surya Sekhar Sharma
+                  Rayapati Ravi Theja
                 </p>
                 <p className="text-neutral-500 text-[10px] tracking-[0.2em] uppercase mt-0.5">
-                  Creative Developer
+                  AI &amp; Full Stack Developer
                 </p>
               </div>
               <div className="ml-auto flex items-center gap-1.5 bg-neutral-900 border border-neutral-800 rounded-full px-2.5 py-1">
@@ -414,7 +417,7 @@ const Navbar = () => {
                       );
                     })}
                     <a
-                      href="/Resume/Surya_CV.pdf"
+                      href="/Resume/Ravi_Theja_CV.pdf"
                       download
                       aria-label="Download Resume"
                       className="text-neutral-400 hover:text-white transition-all duration-300 hover:scale-110"
@@ -459,7 +462,7 @@ const Navbar = () => {
                     );
                   })}
                   <a
-                    href="/Resume/Surya_CV.pdf"
+                    href="/Resume/Ravi_Theja_CV.pdf"
                     download
                     aria-label="Download Resume"
                     className="text-neutral-500 hover:text-white transition-all duration-300 active:scale-95"
